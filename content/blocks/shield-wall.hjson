@@ -1,0 +1,29 @@
+name: "Shield wall"
+description: "#ShieldedWall"
+type: ForceProjector
+health: 2500
+size: 3
+hasPower: true
+
+radius: 2
+breakage: 550
+cooldownNormal: 1.5
+cooldownLiquid: 3
+cooldownBrokenBase: 0.35
+basePowerDraw: 0.2
+
+consumes: {
+	power: 1
+	items: {
+		items: []
+	}
+}
+
+requirements: [
+  steel/24
+  hardened-steel/8
+  lead/100
+  silicon/125
+  titanium/75
+]
+category: defense

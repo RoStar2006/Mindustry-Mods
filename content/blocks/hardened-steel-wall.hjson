@@ -1,0 +1,9 @@
+name: "Hardened Steel wall"
+description: "Better a than thorium wall"
+type: Wall
+health: 3600
+size: 2
+requirements: [
+  hardened-steel/24
+]
+category: defense

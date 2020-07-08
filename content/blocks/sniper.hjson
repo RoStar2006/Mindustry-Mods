@@ -1,0 +1,36 @@
+type: ItemTurret
+name: Sniper
+description: It simply snipes enemys.
+health: 1000
+size: 2
+reload: 100
+range: 300
+shots: 1
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0
+rotatespeed: 16
+hitShake: 1
+recoil: 2
+itemCapacity: 100
+targetGround: true
+targetAir: false
+
+ammo: {
+  steel-bullet: {
+	type: BasicBulletType
+    speed: 30
+    damage: 10
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+	lifetime: 30
+  }
+}
+requirements: [
+  steel/40
+  titanium/70
+]
+category: turret
+research: duo

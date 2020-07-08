@@ -1,0 +1,6 @@
+type: material
+name: Hardened Steel
+description: A robust material.
+hardness: 2
+cost: 2
+color: ffffff

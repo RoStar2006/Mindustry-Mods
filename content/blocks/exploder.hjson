@@ -1,0 +1,63 @@
+type: ArtilleryTurret
+name: Exploder
+description: It is shooting exploding bullets
+health: 1750
+size: 3
+reload: 50
+range: 300
+shots: 1
+ammoUseEffect: shellEjectSmall
+inaccuracy: 2
+rotatespeed: 12
+recoil: 2
+targetGround: true
+targetAir: true
+shootSound: artillery
+
+ammo: {
+	encased-explosive: {
+		type: MissileBulletType
+		speed: 10
+		damage: 60
+		reloadMultiplier: 2
+		bulletWidth: 10
+		bulletHeight: 14
+		shootEffect: shootBig
+		smokeEffect: shootBigSmoke
+		lifetime: 30
+		fragBullets: 3
+		splashDamage: 20
+		splashDamageRadius: 80
+		fragBullet: {
+			type: BasicBulletType
+			shootSound: shoot
+			speed: 5
+			damage: 60
+			bulletWidth: 3
+			bulletHeight: 5
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			lifetime: 10
+		}
+	}
+	blast-compound: {
+		type: BasicBulletType
+		speed: 10
+		damage: 30
+		bulletWidth: 10
+		bulletHeight: 14
+		shootEffect: shootBig
+		smokeEffect: shootBigSmoke
+		explodeRange: 50
+		splashDamage: 10
+		splashDamageRadius: 80
+		lifetime: 30
+	}
+}
+requirements: [
+  titanium/300
+  graphite/250
+  steel/150
+]
+category: turret
+research: duo

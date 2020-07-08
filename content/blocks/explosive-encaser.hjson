@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: "Explosive Encaser"
+description: "Encase blast compound"
+size: 2
+hasPower: true
+craftTime: 300
+itemCapacity: 20
+updateEffect: smeltsmoke
+flameColor: ffc999
+outputItem: {
+	item: encased-explosive
+}
+consumes: {
+	power: 2
+	items: {
+		items: [
+			blast-compound/2
+			steel/5
+			hardened-steel/1
+		]
+	}
+}
+requirements: [
+	steel/50
+	hardened-steel/150
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

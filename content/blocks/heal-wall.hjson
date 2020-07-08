@@ -1,0 +1,26 @@
+name: "Heal wall"
+description: "#HealedWall"
+type: MendProjector
+health: 2500
+size: 3
+hasPower: true
+
+range: 20
+healPercent: 15
+reload: 200
+
+consumes: {
+	power: 1
+	items: {
+		items: []
+	}
+}
+
+requirements: [
+  steel/24
+  hardened-steel/8
+  lead/100
+  silicon/125
+  titanium/75
+]
+category: defense

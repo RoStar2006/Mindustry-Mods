@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: "Mechanical Hardened Steel Bullet Fabricator"
+description: "Make hardened bullets out of hardened steel"
+size: 2
+craftTime: 180
+itemCapacity: 20
+updateEffect: smeltsmoke
+flameColor: ffc999
+outputItem: {
+	item: hardened-steel-bullet
+}
+consumes: {
+	items: {
+		items: [
+			hardened-steel/3
+		]
+	}
+}
+requirements: [
+  hardened-steel/50
+  steel/100
+  graphite/200
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

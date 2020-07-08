@@ -1,0 +1,6 @@
+name: "My first MOD"
+displayName: "[maroon]My first MOD"
+author: "RoStar_06"
+description: "A simple mod."
+version: "1"
+minGameVersion: "103"

@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: "Steel Bullet Fabricator"
+description: "Make steel usefull"
+size: 2
+hasPower: true
+craftTime: 30
+itemCapacity: 20
+updateEffect: smeltsmoke
+flameColor: ffc999
+outputItem: {
+	item: steel-bullet
+}
+consumes: {
+	power: 1.5
+	items: {
+		items: [
+			steel/3
+		]
+	}
+}
+requirements: [
+  steel/100
+  graphite/200
+  silicon/50
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

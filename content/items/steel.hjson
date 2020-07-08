@@ -1,0 +1,6 @@
+type: material
+name: Steel
+description: A easy but robust material.
+hardness: 2
+cost: 1
+color: ffffff

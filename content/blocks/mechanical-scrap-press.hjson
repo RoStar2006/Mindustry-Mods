@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: "Mechanical Scrap press"
+description: "Transforms copper to scrap"
+size: 2
+craftTime: 120
+itemCapacity: 20
+updateEffect: smeltsmoke
+outputItem: {
+	item: scrap
+}
+consumes: {
+	items: {
+		items: [
+			copper/1
+		]
+	}
+}
+requirements: [
+  lead/50
+  copper/25
+]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

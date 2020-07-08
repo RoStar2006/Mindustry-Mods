@@ -1,0 +1,48 @@
+type: DoubleTurret
+name: Duo Sniper
+description: It simply snipes enemys but with 2 bullets.
+health: 1500
+size: 2
+drawSize: 40
+reload: 100
+range: 500
+shots: 2
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0
+rotatespeed: 16
+hitShake: 1
+recoil: 2
+itemCapacity: 100
+targetGround: true
+targetAir: true
+
+ammo: {
+  hardened-steel-bullet: {
+	type: BasicBulletType
+    speed: 30
+    damage: 200
+	reloadMultiplier: 0.1
+    bulletWidth: 4
+    bulletHeight: 4
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+	lifetime: 50
+  }
+  steel-bullet: {
+	type: BasicBulletType
+    speed: 30
+    damage: 70
+    bulletWidth: 4
+    bulletHeight: 4
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+	lifetime: 50
+  }
+}
+requirements: [
+  steel/50
+  titanium/150
+  graphite/100
+]
+category: turret
+research: duo

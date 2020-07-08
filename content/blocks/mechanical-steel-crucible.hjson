@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: "Mechanical Steel Crucible"
+description: "Combine coal and scrap to get steel"
+size: 2
+craftTime: 180
+itemCapacity: 20
+updateEffect: smeltsmoke
+flameColor: ffc999
+outputItem: {
+	item: steel
+}
+consumes: {
+	items: {
+		items: [
+			scrap/1
+			coal/2
+		]
+	}
+}
+requirements: [
+  lead/50
+  copper/100
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

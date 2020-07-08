@@ -1,0 +1,8 @@
+type: resource
+name: Hardened Steel bullet
+description: 4 3 2 1 Fire!
+explosiveness: 0
+flammability: 0
+hardness: 2
+cost: 1
+color: ffffff

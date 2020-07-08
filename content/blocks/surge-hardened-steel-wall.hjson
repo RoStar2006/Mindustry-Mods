@@ -1,0 +1,13 @@
+name: "Surge Hardened Steel wall"
+description: "Better than a Surge Alloy Wall"
+type: SurgeWall
+health: 5000
+size: 2
+lightningChance: 0.15
+lightningDamage: 30
+lightningLength: 100
+requirements: [
+  hardened-steel/12
+  surge-alloy/12
+]
+category: defense
